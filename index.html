@@ -4,99 +4,153 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>GuardReasoner-VL Documentation</title>
+    <title>Claude 4 - Anthropic</title>
     <link rel="stylesheet" href="styles.css"> <!-- 可链接自定义CSS -->
     <style>
-        /* 简单的内联CSS样式，帮助你快速定制外观 */
+        /* 简单的内联CSS样式 */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #16191e; /* 淡灰色背景 */
+            color: #eaeef4; /* 深灰色文字 */
         }
+
         header {
-            background-color: #333;
-            color: white;
-            padding: 10px 20px;
+            background-color: #1c1c1c; /* 深灰背景 */
+            color: #fff; /* 白色文字 */
+            padding: 30px 50px;
             text-align: center;
         }
-        nav {
-            background-color: #444;
-            padding: 10px;
+
+        header h1 {
+            font-size: 36px;
+            margin: 0;
         }
-        nav a {
+
+        header p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .hero {
+            background: url('your-hero-image.jpg') no-repeat center center;
+            background-size: cover;
+            height: 500px;
+            color: #16191e;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            font-weight: bold;
+            margin: 0;
+            color: #eaeef4; /* 白色标题 */
+        }
+
+        .cta-button {
+            background-color: #007bff; /* 蓝色按钮 */
             color: white;
-            margin: 0 15px;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
             text-decoration: none;
+            margin-top: 20px;
         }
-        nav a:hover {
-            text-decoration: underline;
+
+        .cta-button:hover {
+            background-color: #0056b3; /* 蓝色按钮悬停状态 */
         }
-        main {
-            padding: 20px;
+
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+            background-color: white;
+            margin-bottom: 30px;
         }
+
+        .section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #333; /* 深灰色标题 */
+        }
+
+        .section p {
+            font-size: 18px;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #555; /* 更柔和的文字颜色 */
+        }
+
         footer {
-            background-color: #333;
+            background-color: #1c1c1c; /* 深灰背景 */
             color: white;
             text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h2 {
+                font-size: 36px;
+            }
+
+            .cta-button {
+                font-size: 16px;
+                padding: 10px 20px;
+            }
         }
     </style>
 </head>
 <body>
 
-    <!-- 页眉 -->
+    <!-- Header
     <header>
-        <h1>GuardReasoner-VL Documentation</h1>
-        <p>Your guide to using the GuardReasoner-VL project.</p>
-    </header>
+        <h1>Claude 4 by Anthropic</h1>
+        <p>The next evolution of AI assistance, bringing you advanced, ethical solutions</p>
+    </header> -->
 
-    <!-- 导航栏 -->
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#docs">Documentation</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-    </nav>
+    <!-- Hero Section (Banner) -->
+    <section class="hero">
+        <h2>Introducing Claude 4</h2>
+        <p>The most powerful AI assistant to date, designed to help you solve real-world challenges.</p>
+        <a href="#learn-more" class="cta-button">Learn More</a>
+    </section>
 
-    <!-- 主要内容 -->
-    <main>
-        <section id="home">
-            <h2>Welcome to GuardReasoner-VL</h2>
-            <p>GuardReasoner-VL is a powerful tool designed to help you with advanced reasoning tasks. Below are some details about the project.</p>
-        </section>
+    <!-- Features Section -->
+    <section class="section" id="learn-more">
+        <h2>What’s New in Claude 4?</h2>
+        <p>Claude 4 is built to deliver better results with more nuanced understanding and ethical decision-making capabilities.</p>
+        <p>Key features include:</p>
+        <ul>
+            <li>Advanced reasoning capabilities</li>
+            <li>More reliable safety measures</li>
+            <li>Faster response time</li>
+            <li>Improved usability for developers</li>
+        </ul>
+    </section>
 
-        <section id="docs">
-            <h2>Documentation</h2>
-            <p>This section contains all the necessary documentation to get started with GuardReasoner-VL.</p>
-            <ul>
-                <li><a href="#">Getting Started</a></li>
-                <li><a href="#">API Documentation</a></li>
-                <li><a href="#">Tutorials</a></li>
-            </ul>
-        </section>
+    <!-- Benefits Section -->
+    <section class="section">
+        <h2>How Claude 4 Improves Your Work</h2>
+        <p>Claude 4 makes complex tasks easier, safer, and faster for professionals across industries.</p>
+        <p>Whether you’re working in finance, healthcare, or any other field, Claude 4 delivers accurate, safe, and timely results.</p>
+    </section>
 
-        <section id="about">
-            <h2>About the Project</h2>
-            <p>GuardReasoner-VL aims to provide robust reasoning capabilities while ensuring system security and efficiency.</p>
-        </section>
-
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Have questions or feedback? Reach out to us through the following channels:</p>
-            <ul>
-                <li>Email: contact@guardreasoner-vl.com</li>
-                <li>GitHub: <a href="https://github.com/GuardReasoner-VL">GuardReasoner-VL GitHub</a></li>
-            </ul>
-        </section>
-    </main>
-
-    <!-- 页脚 -->
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2025 GuardReasoner-VL. All rights reserved.</p>
+        <p>&copy; 2025 Anthropic. All rights reserved.</p>
     </footer>
 
 </body>
